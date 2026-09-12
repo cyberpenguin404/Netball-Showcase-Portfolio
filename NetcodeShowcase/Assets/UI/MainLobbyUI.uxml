@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="CreateLobbyPanel" src="project://database/Assets/UI/CreateLobbyPanel.uxml?fileID=9197481963319205126&amp;guid=f8106ad691061bc4ebef7b07cf181eaa&amp;type=3#CreateLobbyPanel"/>
+    <ui:Template name="JoinLobbyPanel" src="project://database/Assets/UI/JoinLobbyPanel.uxml?fileID=9197481963319205126&amp;guid=d607bf0021e3b1d4b84de58c4fb3e1fc&amp;type=3#JoinLobbyPanel"/>
+    <ui:TabView name="TabSelector" style="-unity-text-align: middle-left; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;">
+        <ui:Tab label="Join Game" closeable="false" name="JoinTab">
+            <ui:Instance template="JoinLobbyPanel" name="JoinPanel"/>
+        </ui:Tab>
+        <ui:Tab label="Create Game" closeable="false" name="CreateTab">
+            <ui:Instance template="CreateLobbyPanel" name="CreatePanel"/>
+        </ui:Tab>
+    </ui:TabView>
+</ui:UXML>

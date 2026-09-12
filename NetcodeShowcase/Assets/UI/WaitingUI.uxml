@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="BGPanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.61); align-items: center; align-self: center; justify-content: flex-start; color: rgb(255, 255, 255); font-size: 21px;">
+        <ui:Label text="Waiting for game to start..." style="margin-top: 4px; margin-right: 24px; margin-left: 24px;" />
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-items: center;">
+            <ui:Label text="Players in lobby:" />
+            <ui:Label text="0" name="txt_playerCount" style="color: rgb(238, 175, 0); font-size: 54px;" />
+        </ui:VisualElement>
+        <ui:Button text="Leave" style="background-color: rgb(113, 113, 113);" />
+    </ui:VisualElement>
+</ui:UXML>

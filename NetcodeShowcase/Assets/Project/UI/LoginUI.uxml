@@ -1,0 +1,26 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="LoginPanel" style="flex-grow: 1; position: absolute; align-self: center; background-color: rgb(180, 180, 180); margin-top: 30px; margin-right: 30px; margin-bottom: 30px; margin-left: 30px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; display: flex;">
+        <ui:Label text="PD4 Game of the year" name="GameTitle" style="-unity-text-align: upper-center; font-size: 36px;"/>
+        <ui:Label text="Login" name="" style="-unity-text-align: upper-left; color: rgb(255, 255, 255); font-size: 30px; -unity-font-style: bold;"/>
+        <ui:TextField label="Email" placeholder-text="Enter email..." name="usernameInput"/>
+        <ui:TextField label="Password" placeholder-text="Enter Password..." password="true" name="passwordInput"/>
+        <ui:Toggle label="Remember me?" name="rememberMeToggle"/>
+        <ui:Label text="Wrong email or password" name="ErrorText" style="color: rgb(145, 4, 4); background-color: rgba(255, 255, 255, 0.52); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; white-space: normal;"/>
+        <ui:VisualElement name="Buttons" style="margin-top: 20px; flex-direction: row; justify-content: space-around; align-content: stretch;">
+            <ui:Button text="Register" name="RegisterButton" style="width: 150px; background-color: rgb(255, 255, 255);"/>
+            <ui:Button text="Login" name="LoginButton" style="width: 150px; background-color: rgb(255, 255, 255);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="RegistrationPanel" enabled="true" style="flex-grow: 1; position: absolute; align-self: center; background-color: rgb(180, 180, 180); margin-top: 30px; margin-right: 30px; margin-bottom: 30px; margin-left: 30px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; display: none;">
+        <ui:Label text="PD4 Game of the year" name="GameTitle" style="-unity-text-align: upper-center; font-size: 36px;"/>
+        <ui:Label text="Register" name="" style="-unity-font-style: bold; font-size: 30px; color: rgb(255, 255, 255);"/>
+        <ui:TextField label="Display Name" placeholder-text="Enter display name..." password="false" name="displayNameInput"/>
+        <ui:TextField label="Email" placeholder-text="Enter email..." name="usernameInput"/>
+        <ui:TextField label="Password" placeholder-text="Enter password..." password="true" name="passwordInput"/>
+        <ui:Label text="Email already taken" name="ErrorText" style="color: rgb(145, 4, 4); background-color: rgba(255, 255, 255, 0.52); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; white-space: normal;"/>
+        <ui:VisualElement name="Buttons" style="margin-top: 20px; flex-direction: row; justify-content: space-around; align-content: stretch;">
+            <ui:Button text="Back" name="BackButton" style="width: 150px; background-color: rgb(255, 255, 255);"/>
+            <ui:Button text="Register" name="RegisterButton" style="width: 150px; background-color: rgb(255, 255, 255);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

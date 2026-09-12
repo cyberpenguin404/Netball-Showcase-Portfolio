@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="background-color: rgba(0, 0, 0, 0.48); color: rgb(255, 255, 255); -unity-font-style: normal;">
+        <ui:VisualElement name="TopPanel" style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+            <ui:Label text="Join existing game" />
+            <ui:Button text="Refresh" name="btn_refresh" style="align-self: flex-end; flex-direction: column;" />
+        </ui:VisualElement>
+        <ui:ListView name="lst_games" item-template="project://database/Assets/UI/lobby_listItem.uxml?fileID=9197481963319205126&amp;guid=a1fc08f38a54a3843b65c1fde2424628&amp;type=3#lobby_listItem" style="background-color: rgba(0, 0, 0, 0.55);" />
+        <ui:Button text="Join" enabled="false" name="btn_join" style="align-self: flex-end;" />
+    </ui:VisualElement>
+</ui:UXML>

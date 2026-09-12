@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Panel" style="flex-grow: 1; position: absolute; width: 381px; background-color: rgb(72, 72, 72); right: 0;">
+        <ui:VisualElement name="GoldValuePanel" style="flex-grow: 1; flex-direction: row; overflow: visible;">
+            <ui:Label text="Gold:" style="font-size: 35px; color: rgb(255, 255, 255);"/>
+            <ui:Label text="9999" name="GoldValueTxt" style="font-size: 35px; color: rgb(255, 192, 0); flex-direction: row; flex-shrink: 1; flex-grow: 1;"/>
+        </ui:VisualElement>
+        <ui:Button text="Earn gold" name="EarnGoldBtn"/>
+        <ui:Button text="Buy Sword (50 GD)" name="BuySwordBtn"/>
+        <ui:Button text="Buy Potion (20 GD)" name="BuyPotionBtn"/>
+        <ui:Button text="Use Potion" name="UsePotionBtn"/>
+        <ui:Label text="Inventory" style="color: rgb(255, 255, 255); font-size: 28px; -unity-text-align: upper-center;"/>
+        <ui:ListView header-title="Items:" name="itemsList" item-template="project://database/Assets/W06_Playfab/UI/InventoryItem.uxml?fileID=9197481963319205126&amp;guid=9cc632e8959f88d44879c8c97fac90a3&amp;type=3#InventoryItem" binding-source-selection-mode="AutoAssign" selection-type="None" show-add-remove-footer="false" style="color: rgb(255, 255, 255);"/>
+    </ui:VisualElement>
+</ui:UXML>

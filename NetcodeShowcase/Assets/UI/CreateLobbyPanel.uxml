@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.34); color: rgb(255, 255, 255);">
+        <ui:Label text="Create new game" />
+        <ui:TextField placeholder-text="Enter Game Name" name="textfield_name" style="color: rgb(0, 0, 0);" />
+        <ui:Button text="Create game" name="btn_create" style="align-self: flex-end;" />
+    </ui:VisualElement>
+</ui:UXML>

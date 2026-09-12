@@ -104,3 +104,6 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+/NetcodeShowcase/Assets/Suggo Creations
+/NetcodeShowcase/Assets/TextMesh Pro
+/NetcodeShowcase/Assets/Thirdparty

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=fb3c3173dd62712409dccdfcc1359b45&amp;type=3#GameUI" />
+    <ui:VisualElement name="RedScorePanel" style="flex-grow: 1; left: 0; right: 0; justify-content: center; display: flex; align-content: flex-start; align-self: flex-start; flex-direction: row; width: 100%; align-items: flex-start;">
+        <ui:Label text="0" enabled="true" name="RedScore" class="fullscreentext buttonred" style="width: 200px; padding-top: 5px; padding-right: 20px; padding-bottom: 5px; padding-left: 20px; margin-left: 20px; margin-right: 20px; font-size: 80px;" />
+        <ui:Label text="00:00" enabled="true" name="Timer" class="fullscreentext" style="width: 200px; padding-top: 5px; padding-right: 20px; padding-bottom: 5px; padding-left: 20px; margin-left: 17px; font-size: 80px;" />
+        <ui:Label text="0" enabled="true" name="BlueScore" class="fullscreentext buttonblue" style="width: 200px; padding-top: 5px; padding-right: 20px; padding-bottom: 5px; padding-left: 20px; margin-left: 50px; margin-right: 50px; font-size: 80px;" />
+    </ui:VisualElement>
+</ui:UXML>
